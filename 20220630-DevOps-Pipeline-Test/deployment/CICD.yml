@@ -79,4 +79,4 @@ stages:
         appSettings: '-Environment $(devEnvironment) -emailAddress $(toEmailAddress)'
         package: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
 
-        deploymentMethod: 'zipDeploy'
+        deploymentMethod: 'runFromPackage'
