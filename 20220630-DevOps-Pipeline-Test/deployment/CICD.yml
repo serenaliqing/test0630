@@ -29,6 +29,8 @@ stages:
           connections.json
           devops_blob_connection/**
           devops_sql_apiconnection/**
+          Recurrence_Trigger/**
+          
           
         TargetFolder: '$(System.DefaultWorkingDirectory)/20220630-DevOps-Pipeline-Test/project_output'
 
